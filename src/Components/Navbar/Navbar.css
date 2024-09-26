@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}/*auto en margin eka ain krnna */
+.clearfix{overflow: auto;}/*&float damama bg color ek ynw ek nathi krnna*/
+*{ text-decoration: none;}/*hama hyper link ekakama underline ek nthi krna*/
+.navwrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+.navwrapper ul li {
+    margin-bottom: 10px;
+    
+    margin: 20px 0px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.navwrapper ul li :hover{
+    
+    border-bottom: 1px solid rgb(203, 253, 3);
+   transition:0s;
+   color: rgb(239, 255, 20);
+}
+.nav{
+    opacity: .8;
+    font-weight: bold;
+    position: absolute;
+    width: 1200px;
+    background-color: rgb(74, 74, 74);
+}
+.nav form{
+        margin: 30px 40px;
+    float: right;
+   
+}
+.nav form input{
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+}
+.nav img{
+    width: 1200px;
+
+}
+.navwrapper h1{
+    margin: auto;
+
+}
+.nav ul li a{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
